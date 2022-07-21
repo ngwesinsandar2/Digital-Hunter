@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #f1f5f9;
+}
+
+.nav-Con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoAndHacbc{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wolf{
+    width: 100px;
+    height: 60px;
+}
+
+.nav-link, #navBarRe a{
+    color: #1E1F28;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    color: #f1f5f9;
+    background-color: #f80834;
+}
+
+.phoneno, .line6AndLp{
+    display: flex;
+    flex-direction: row;
+}
+
+.theme{
+    position: relative;
+    right: 60px;
+    top: 13px;
+}
+
+.sunAndMoon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.moon{
+    position: absolute;
+    fill: #f1f5f9;
+}
+
+.sun{
+    position: absolute;
+    fill: #1E1F28;
+}
+
+.phoneNum{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aO{
+    font-size: 15px;
+    margin-top: -24px;
+    color: #f80834;
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+}
+
+#menu{
+    width: 30px;
+    height: 30px;
+    fill: #f80834;
+}
+
+#navBarRe{
+    top: 60px;
+}
+
+#navBarRe a:hover{
+    color: #f1f5f99b;
+}
+
+.homeCon, .aboutCon, .courseCon, .contactBoxCon{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutCon, .courseCon, .redJoinNow, .reviewCon, .registerCon, .contactCon, .footer{
+    margin-top: 300px;
+}
+
+.verticalTitle{
+    margin-top: 85px;
+}
+
+.dh{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.line2{
+    margin-top: -6px;
+    margin-left: 14px;
+    width: 2px;
+    height: 130px;
+}
+
+.line3{
+    /* width: 170px; */
+    width: 0;
+    height: 10px;
+    transition: width 1.5s ease;
+}
+
+.jN{
+    width: 200px;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 13px;
+}
+
+.jN:hover{
+    background-color: #F80834;
+}
+
+.mouseCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mouse{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.mouse:hover{
+    transform: translateY(10px);
+    transition: transform 0.5s ease;
+}
+
+.arrow{
+    width: 14px;
+    height: 14px;
+    fill: #f80834;
+}
+
+.arrow1{
+    transition: transform 1s ease;
+}
+
+.aboutTitleAndNum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.box1{
+    background-color: #F80834;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.aboutTitleSmall{
+    width: 280px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.aboutP{
+    margin-left: 12px;
+    margin-bottom: 7px;
+}
+
+.line4{
+    width: 50px;
+    height: 4px;
+    margin-left: 12px;
+}
+
+.computer-cards{
+    display: flex;
+}
+
+.computer-card{
+    background-color: #262833;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.line6AndLp{
+    align-items: center;
+}
+
+.landing-pg{
+    height: 70px;
+    background-color: #262833;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line6{
+    width: 4px;
+    height: 50px;
+    background-color: #f80834;
+    transition: width 1.4s ease;
+}
+
+.landing-pg:hover .line6{
+    width: 260px;
+    transition: width 1.4s ease;
+}
+
+.box3{
+    width: 45px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #f80834;
+    cursor: pointer;
+    transition: transform .5s ease;
+    border-radius: 10px;
+}
+
+.box3:hover{
+    transform: translateY(-10px);
+    transition: transform .5s ease;
+}
+
+.course-cards{
+    display: flex;
+}
+
+.course-card-con{
+    background-color: #262833;
+}
+
+.red-one-con{
+    background-color: #f80834;
+    height: 300px;
+}
+
+.red-one{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redJoinNow{
+    display: flex;
+    background-color: #f80834;
+    width: 100%;
+    height: 250px;
+}
+
+.titleAndBtn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 160px;
+}
+
+.jN2, .jN3{
+    width: 200px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #f1f5f9;
+    color: #f80834;
+    border: 0;
+    cursor: pointer;
+}
+
+.jN2:hover{
+    background-color: #1E1F28;
+    color: #f80834;
+}
+
+.jN3{
+    width: 200px;
+    height: 70px;
+    border-radius: 13px;
+    background-color: #1E1F28;
+    border: 0;
+    cursor: pointer;
+}
+
+.jN3:hover{
+    background-color: #f1f5f9;
+    color: #f80834;
+}
+
+.jN3:hover .arrow{
+    fill: #f80834;
+}
+
+.bigReview{
+    width: 100%;
+}
+
+.bigReview, .review-cards-slide-con, .review-cards-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aaa{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.aaa input{
+    display: none;
+}
+
+.review-cards-con{
+    flex-direction: row;
+    transition: 2s;
+}
+
+.reviewCards{
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewCard{
+    background-color: #181920;
+    border-radius: 10px;
+}
+
+.reviewTitle, .slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.letter p{
+    font-size: 14px;
+    color: #494E64;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.slide-line{
+    background-color: #2A2E38;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.slide-line:hover{
+    background-color: #f80834;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+
+.registerTitle{
+    margin-top: 30px;
+    margin-left: 12px;
+}
+
+.regisBtn{
+    margin-left: 85px;
+}
+
+.contactBoxCon{
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBox{
+    width: 60%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #181920;
+}
+
+.box2{
+    background-color: #f80834;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactUs input, .contactUs textarea{
+    background-color: #34303C;
+    border: none;
+}
+
+.contactUs input::placeholder, .contactUs textarea::placeholder{
+    color: #f1f5f9;
+}
+
+.contactUs input:focus, .contactUs textarea:focus{
+    color: #f1f5f9;
+    background-color: #34303C;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerTitle{
+    display: flex;
+    flex-direction: row;
+    /* color: #DBEAFE; */
+}
+
+.socialIcon{
+    cursor: pointer;
+    fill: #A0A0A0;
+}
+
+.twitter:hover, .git:hover, .yt:hover, .tele:hover{
+    fill: #f80834;
+}
+
+.pr, .dc{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutShort p{
+    color: #A0A0A0;
+    margin-top: 0;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .theme{
+        position: relative;
+        /* right: -105px; */
+        left: -140px;
+        top: 60px;
+    }
+
+    .aboutCon, .courseCon, .redJoinNow, .reviewCon, .registerCon, .contactCon, .footer{
+        margin-top: 140px;
+    }
+
+    .dh{
+        font-size: 10px;
+    }
+
+    .line2{
+        margin-top: -13px;
+        margin-left: 6px;
+        width: 1px;
+        height: 70px;
+    }
+
+    .jN{
+        width: 150px;
+        height: 50px;
+    }
+
+    .mouseCon{
+        margin-bottom: 0;
+    }
+
+    .aboutCon{
+        margin-top: 200px;
+    }
+
+    .aboutTitle{
+        margin-left: 0px;
+    }
+
+    .aboutP{
+        margin-left: 0px;
+    }
+
+    .line4{
+        margin-left: 0px;
+    }
+
+    .computer-cards{
+        align-items: center;
+    }
+
+    .computer-card{
+        padding: 12px;
+        margin-top: 10px;
+    }
+
+    .line6{
+        transition: width 1.4s ease;
+    }
+
+    .landing-pg:hover .line6{
+        width: 78px;
+        transition: width 1s ease;
+    }
+    
+    .red-one-con{
+        margin-top: 15px;
+    }
+    
+    .titleAndBtn{
+        margin-left: 0px;
+    }
+    
+    .jN2, .jN3{
+        width: 150px;
+        height: 50px;
+        margin-top: 5px;
+    }
+    
+    .jN3{
+        margin-top: 5px;
+    }
+
+    .aaa{
+        margin-top: 40px;
+    }
+
+    .review-cards-con{
+        transition: 1s;
+    }
+
+    .reviewCards{
+        flex-direction: column;
+    }
+
+    .reviewCard{
+        width: 100%;
+    }
+
+    .registerTitle{
+        margin-left: 0px;
+    }
+    
+    .regisBtn{
+        margin-left: 0px;
+    }
+
+    .contactBox{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .box2{
+        width: 100%;
+    }
+
+    .airplane{
+        width: 50px;
+        height: 50px;
+    }
+
+    .contactUs input::placeholder, .contactUs textarea::placeholder{
+        font-size: 15px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .red-one-con{
+        margin-top: 15px;
+    }
+
+    .titleAndBtn{
+        margin-left: 0px;
+    }
+
+    .contactBox{
+        width: 100%;
+        height: 800px;
+    }
+    
+    .box2{
+        width: 100%;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .line6{
+        transition: width 1.8s ease;
+    }
+    
+    .landing-pg:hover .line6{
+        width: 550px;
+        transition: width 1.8s ease;
+    }
+
+    .course-card-con{
+        width: 220px;
+        height: 220px;
+        padding: 52px !important;
+        margin-right: 10px;
+    }
+
+    .course-card-con p{
+        font-size: 13px;
+    }
+
+    .red-one-con{
+        margin-top: 10px;
+    }
+
+    .jN2, .jN3{
+        margin-top: 5px;
+    }
+    
+    .jN3{
+        margin-top: 5px;
+    }
+
+    .contactBox{
+        width: 100%;
+    }
+    
+    .box2{
+        width: 70%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .course-card-con{
+        width: 220px;
+        height: 220px;
+        padding: 52px !important;
+    }
+
+    .course-card-con p{
+        font-size: 13px;
+    }
+
+    .line6{
+        transition: width 1s ease;
+    }
+    
+    .landing-pg:hover .line6{
+        width: 80px;
+        transition: width 1s ease;
+    }
+}
